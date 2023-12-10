@@ -1,0 +1,2 @@
+2023-12-09 19:11:10.314 | ERROR    | __main__:<module>:28 - IntervalTrigger.__init__() got an unexpected keyword argument 'second'
+2023-12-09 23:29:48.437 | ERROR    | __main__:<module>:30 - HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
