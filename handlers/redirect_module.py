@@ -19,6 +19,7 @@ async def get_order_id(message: Message):
 
 @router.channel_post()
 async def monitor_chat(message: Message):
+    print(message.chat.id)
     print(id_list)
     if bot_status.get_status() is False:
         return
